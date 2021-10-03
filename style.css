@@ -1,0 +1,64 @@
+.mainContent {
+  background-color: white;
+  height: auto;
+  width: auto;
+  border-radius: 1rem;
+}
+
+body {
+  background-color: #16db93;
+}
+.flex {
+  height: 90vh;
+  width: 100vw;
+}
+.btno {
+  display: inline-block;
+  height: 10vh;
+  width: 10vw;
+  border: none;
+  background-color: #048ba8;
+  border-radius: 0.5rem;
+  margin: 4vh 0%;
+  font-weight: 700;
+  color: white;
+}
+.checkbx {
+  height: auto;
+  width: auto;
+  margin-top: -12vh;
+  font-size: x-large;
+  font-weight: 700;
+}
+.chkhigh:focus {
+  box-shadow: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .flex {
+    height: 90vh;
+    width: 100vw;
+  }
+  body {
+    background-color: #16db93;
+    /* height: 100vh;
+    width: 100vw; */
+  }
+  .mainContent {
+    background-color: #16db93;
+    border-radius: 0rem;
+    padding-top: 3vh;
+  }
+  .btno {
+    display: inline-block;
+    height: 10vh;
+    width: 20vw;
+    border: none;
+    background-color: #048ba8;
+    border-radius: 0.5rem;
+    margin: none;
+  }
+  html {
+    font-size: 14px;
+  }
+}
